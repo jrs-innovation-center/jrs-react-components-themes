@@ -1,5 +1,5 @@
-const dark = {
-  themeName: 'dark',
+const Dark = {
+  themeName: 'Dark',
   themeStyles: {
     panelBorder: 'ba bg-black-50',
     panelBackgroundColor: 'bg-black-50',
@@ -7,4 +7,4 @@ const dark = {
   }
 }
 
-export default dark
+export default Dark

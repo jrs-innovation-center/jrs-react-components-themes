@@ -1,0 +1,29 @@
+{
+  "name": "jrs-react-components-themes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/bundle.cjs.js",
+  "module": "dist/bundle.es.js",
+  "scripts": {
+    "build": "rollup -c ./rollup.config.js -n JrsComponentsThemes",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "rollup -c -w ./rollup.config.js -n JrsComponentsThemes"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jrs-innovation-center/jrs-react-components-themes.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jrs-innovation-center/jrs-react-components-themes/issues"
+  },
+  "homepage": "https://github.com/jrs-innovation-center/jrs-react-components-themes#readme",
+  "devDependencies": {
+    "rollup": "^0.41.6",
+    "rollup-plugin-buble": "^0.15.0",
+    "rollup-plugin-jsx": "^1.0.3",
+    "rollup-watch": "^3.2.2"
+  }
+}

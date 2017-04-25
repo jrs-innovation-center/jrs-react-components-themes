@@ -1,5 +1,5 @@
-const light = {
-  themeName: 'light',
+const Light = {
+  themeName: 'Light',
   themeStyles: {
     panelBorder: 'ba b--dark-gray',
     panelBackgroundColor: 'bg-white',
@@ -7,4 +7,4 @@ const light = {
   }
 }
 
-export default light
+export default Light
