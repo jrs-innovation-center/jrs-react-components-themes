@@ -1,4 +1,4 @@
-const backgroundColor = 'bg-near-white'
+const backgroundColor = 'bg-washed-blue'
 const textColor = 'near-black'
 const paddingAll = 'pa2'
 const borderRound = 'br2'
@@ -6,8 +6,8 @@ const h2 = 'fw1 f3 mt1 mb0'
 const parentBorderColor = 'b--black-90'
 const childBorderColor = 'b--black-10'
 
-const light = {
-  themeName: 'light',
+const icy = {
+  themeName: 'icy',
   themeStyles: {
     panelBorder: `ba ${borderRound} ${backgroundColor} ${childBorderColor}`,
     panelHeader: `${paddingAll} ${backgroundColor} ${textColor}`,
@@ -35,4 +35,4 @@ const light = {
   }
 }
 
-export default light
+export default icy
