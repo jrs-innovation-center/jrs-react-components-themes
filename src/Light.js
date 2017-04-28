@@ -5,6 +5,7 @@ const borderRound = 'br2'
 const h2 = 'fw1 f3 mt1 mb0'
 const parentBorderColor = 'b--black-90'
 const childBorderColor = 'b--black-10'
+const secondaryTextColor = 'black-50'
 
 const light = {
   themeName: 'light',
@@ -31,7 +32,15 @@ const light = {
     cardImg: `br-100 h4 w4 dib ba ${childBorderColor} ${paddingAll}`,
     cardH1: `f3 mb2`,
     cardH2: `f5 fw4 ${textColor} mt0`,
-    button: `f6 link dim br1 ba ph3 pv2 mb2 dib ${textColor} ${backgroundColor}`
+    button: `f6 link dim br1 ba ph3 pv2 mb2 dib ${textColor} ${backgroundColor}`,
+    tileBackgroundColor: `${backgroundColor}`,
+    tileDivParentWrapper: `${paddingAll} fl tc black`,
+    tileDivH1: `pa1 fl v-mid w-50`,
+    tileH1MainText: `f3 fw2 ${textColor}`,
+    tileH1SecondaryText: `f5 fw1`,
+    tileDivChildrenWrapper: `${paddingAll} fl w-50 mt3 mt2-m`,
+    tileDivH2: `fl w-100`,
+    tileH2: `f3 fw2 ${secondaryTextColor} mt0 lh-copy`
   }
 }
 

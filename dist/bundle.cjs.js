@@ -8,6 +8,7 @@ var paddingAll = 'pa2';
 var borderRound = 'br2';
 var h2 = 'fw1 f3 mt1 mb0';
 var childBorderColor = 'b--black-10';
+var secondaryTextColor = 'black-50';
 
 var dark = {
   themeName: 'dark',
@@ -34,7 +35,15 @@ var dark = {
     cardImg: ("br-100 h4 w4 dib ba " + childBorderColor + " " + paddingAll),
     cardH1: "f3 mb2",
     cardH2: ("f5 fw4 " + textColor + " mt0"),
-    button: ("f6 link dim br1 ba ph3 pv2 mb2 dib " + textColor + " " + backgroundColor)
+    button: ("f6 link dim br1 ba ph3 pv2 mb2 dib " + textColor + " " + backgroundColor),
+    tileBackgroundColor: ("" + backgroundColor),
+    tileDivParentWrapper: (paddingAll + " fl tc " + textColor),
+    tileDivH1: ("pa1 fl v-mid " + textColor),
+    tileH1MainText: ("f3 fw2 " + textColor),
+    tileH1SecondaryText: "f5 fw1",
+    tileDivChildrenWrapper: (paddingAll + " fl mt3 mt2-m"),
+    tileDivH2: "fl w-100",
+    tileH2: ("f3 fw2 " + secondaryTextColor + " mt0 lh-copy")
   }
 };
 
@@ -44,6 +53,7 @@ var paddingAll$1 = 'pa2';
 var borderRound$1 = 'br2';
 var h2$1 = 'fw1 f3 mt1 mb0';
 var childBorderColor$1 = 'b--black-10';
+var secondaryTextColor$1 = 'black-50';
 
 var light = {
   themeName: 'light',
@@ -70,7 +80,15 @@ var light = {
     cardImg: ("br-100 h4 w4 dib ba " + childBorderColor$1 + " " + paddingAll$1),
     cardH1: "f3 mb2",
     cardH2: ("f5 fw4 " + textColor$1 + " mt0"),
-    button: ("f6 link dim br1 ba ph3 pv2 mb2 dib " + textColor$1 + " " + backgroundColor$1)
+    button: ("f6 link dim br1 ba ph3 pv2 mb2 dib " + textColor$1 + " " + backgroundColor$1),
+    tileBackgroundColor: ("" + backgroundColor$1),
+    tileDivParentWrapper: (paddingAll$1 + " fl tc black"),
+    tileDivH1: "pa1 fl v-mid w-50",
+    tileH1MainText: ("f3 fw2 " + textColor$1),
+    tileH1SecondaryText: "f5 fw1",
+    tileDivChildrenWrapper: (paddingAll$1 + " fl w-50 mt3 mt2-m"),
+    tileDivH2: "fl w-100",
+    tileH2: ("f3 fw2 " + secondaryTextColor$1 + " mt0 lh-copy")
   }
 };
 
@@ -80,6 +98,7 @@ var paddingAll$2 = 'pa2';
 var borderRound$2 = 'br2';
 var h2$2 = 'fw1 f3 mt1 mb0';
 var childBorderColor$2 = 'b--black-10';
+var secondaryTextColor$2 = 'black-50';
 
 var icy = {
   themeName: 'icy',
@@ -106,7 +125,15 @@ var icy = {
     cardImg: ("br-100 h4 w4 dib ba " + childBorderColor$2 + " " + paddingAll$2),
     cardH1: "f3 mb2",
     cardH2: ("f5 fw4 " + textColor$2 + " mt0"),
-    button: ("f6 link dim br1 ba ph3 pv2 mb2 dib " + textColor$2 + " " + backgroundColor$2)
+    button: ("f6 link dim br1 ba ph3 pv2 mb2 dib " + textColor$2 + " " + backgroundColor$2),
+    tileBackgroundColor: ("" + backgroundColor$2),
+    tileDivParentWrapper: (paddingAll$2 + " fl tc black"),
+    tileDivH1: "pa1 fl v-mid w-50",
+    tileH1MainText: ("f3 fw2 " + textColor$2),
+    tileH1SecondaryText: "f5 fw1",
+    tileDivChildrenWrapper: (paddingAll$2 + " fl w-50  mt3 mt2-m"),
+    tileDivH2: "fl w-100",
+    tileH2: ("f3 fw2 " + secondaryTextColor$2 + " mt0 lh-copy")
   }
 };
 
