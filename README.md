@@ -51,7 +51,7 @@ const ExampleTheme1 = (props) => {
 export default ExampleTheme1
 ```
 
-> Tip! You can modify themes with the ThemeManager.  See [jrs-react-components  themes](https://github.com/jrs-innovation-center/jrs-react-components#thememanager).
+> Tip! You can modify themes with the ThemeManager.  See [jrs-react-components  Theme Manager](https://github.com/jrs-innovation-center/jrs-react-components#thememanager).
 
 ## Exploring a theme object
 
