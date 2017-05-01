@@ -2,6 +2,12 @@
 
 Pass one the following themes to a [JRS React Component](https://github.com/jrs-innovation-center/jrs-react-components) and achieve ultimate [tachyons](http://tachyons.io/) css styling goodness for the win!
 
+## Available themes
+
+- [dark](./src/dark.js)
+- [light](./src/light.js)
+- [icy](./src/icy.js)
+
 ## Install
 
 ```
@@ -10,7 +16,7 @@ npm install jrs-react-components-themes --save
 
 ## Showcase
 
-Our [showcase]() displays the various available themes applied to our JRS React Components.
+Our [showcase](https://jrscomponentshowcase.now.sh/) displays the various available themes applied to our JRS React Components.
 
 ## Code Example
 
@@ -44,12 +50,6 @@ const ExampleTheme1 = (props) => {
 
 export default ExampleTheme1
 ```
-
-## Available themes
-
-- [dark](./src/dark.js)
-- [light](./src/light.js)
-- [icy](./src/icy.js)
 
 ## Exploring a theme object
 
