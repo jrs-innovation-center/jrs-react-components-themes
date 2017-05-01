@@ -51,6 +51,8 @@ const ExampleTheme1 = (props) => {
 export default ExampleTheme1
 ```
 
+> Tip! You can modify themes with the ThemeManager.  See [jrs-react-components  themes](https://github.com/jrs-innovation-center/jrs-react-components#themes).
+
 ## Exploring a theme object
 
 Here's a partial look at the structure of the `dark` theme object:
