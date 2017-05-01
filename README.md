@@ -4,9 +4,9 @@ Pass one the following themes to a [JRS React Component](https://github.com/jrs-
 
 ## Available themes
 
-- [dark](./src)
-- [light](./src)
-- [icy](./src)
+- [dark](./src/dark.js)
+- [light](./src/light.js)
+- [icy](./src/icy.js)
 
 ## Install
 
