@@ -41,7 +41,7 @@ var dark = {
     tileDivH1: ("pa1 fl v-mid " + textColor),
     tileH1MainText: ("f3 fw2 " + textColor),
     tileH1SecondaryText: "f5 fw1",
-    tileDivChildrenWrapper: (paddingAll + " fl mt3 mt2-m"),
+    tileDivChildrenWrapper: (paddingAll + " fl mt2"),
     tileDivH2: "fl w-100",
     tileH2: ("f3 fw2 " + secondaryTextColor + " mt0 lh-copy")
   }
@@ -86,7 +86,7 @@ var light = {
     tileDivH1: "pa1 fl v-mid w-50",
     tileH1MainText: ("f3 fw2 " + textColor$1),
     tileH1SecondaryText: "f5 fw1",
-    tileDivChildrenWrapper: (paddingAll$1 + " fl w-50 mt3 mt2-m"),
+    tileDivChildrenWrapper: (paddingAll$1 + " fl w-50 mt2"),
     tileDivH2: "fl w-100",
     tileH2: ("f3 fw2 " + secondaryTextColor$1 + " mt0 lh-copy")
   }
@@ -131,7 +131,7 @@ var icy = {
     tileDivH1: "pa1 fl v-mid w-50",
     tileH1MainText: ("f3 fw2 " + textColor$2),
     tileH1SecondaryText: "f5 fw1",
-    tileDivChildrenWrapper: (paddingAll$2 + " fl w-50  mt3 mt2-m"),
+    tileDivChildrenWrapper: (paddingAll$2 + " fl w-50 mt2"),
     tileDivH2: "fl w-100",
     tileH2: ("f3 fw2 " + secondaryTextColor$2 + " mt0 lh-copy")
   }

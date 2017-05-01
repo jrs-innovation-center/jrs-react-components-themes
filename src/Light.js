@@ -38,7 +38,7 @@ const light = {
     tileDivH1: `pa1 fl v-mid w-50`,
     tileH1MainText: `f3 fw2 ${textColor}`,
     tileH1SecondaryText: `f5 fw1`,
-    tileDivChildrenWrapper: `${paddingAll} fl w-50 mt3 mt2-m`,
+    tileDivChildrenWrapper: `${paddingAll} fl w-50 mt2`,
     tileDivH2: `fl w-100`,
     tileH2: `f3 fw2 ${secondaryTextColor} mt0 lh-copy`
   }
