@@ -53,7 +53,24 @@ export default ExampleTheme1
 
 ## Exploring a theme object
 
+Here's a partial look at the structure of the `dark` theme object:
 
+```
+const dark = {
+  themeName: 'dark',
+  themeStyles: {
+    panelBorder: `ba ${borderRound} ${backgroundColor} ${childBorderColor}`,
+    panelHeader: `${paddingAll} ${backgroundColor} ${textColor}`,
+    panelH2: `${h2}`,
+    panelChildrenSection: `${paddingAll} ${backgroundColor}`,
+    panelFooter:  `${paddingAll} ${backgroundColor} ${textColor}`,
+    panelButtonDiv: `fr`,
+    panelButton: `ba dim ${paddingAll} ${backgroundColor} ${textColor}`,
+    listUl: `list pl0 mt0 measure ba br2 b--black-10`,
+    ... remaining themeStyles keys omitted for brevity ...
+```
+
+A theme object contains a `themeName` and a `themeStyles` object.  The former is used to identify the theme. `themeStyles` contains a series of key and value pairs.  Each key is used within a particular [jrs-react-components](https://github.com/jrs-innovation-center/jrs-react-components).  For example, the `listUl` key contains the tachyons css style classes for the List component's `<ul>` tag.  
 
 ## License
 
